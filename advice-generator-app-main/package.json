@@ -1,0 +1,21 @@
+{
+  "name": "advice-generator",
+  "version": "1.0.0",
+  "description": "![Design preview for the Advice generator app ]",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "persolanstereox",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0",
+    "url": "^0.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

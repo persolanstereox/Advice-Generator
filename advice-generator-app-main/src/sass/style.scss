@@ -1,0 +1,25 @@
+@use 'adviceBox' as box;
+@use 'variables' as c;
+@use 'mediaQueries' as mediaQ;
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Manrope';
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: c.$DarkBlue;
+    padding: 3rem;
+    overflow: hidden;
+    
+}

@@ -1,0 +1,60 @@
+@use 'variables' as c;
+.advice__box {
+  max-width: 70rem;
+  min-height: 40rem;
+  border-radius: 10px;
+  padding: 4rem;
+  text-align: center;
+  background-color: c.$DarkGrayishBlue;
+  position: relative;
+}
+.advice__number {
+  font-size: 3rem;
+  color: c.$NeonGreen;
+}
+.advice {
+  font-size: 4rem;
+  margin-top: 2rem;
+  color: c.$LightCyan;
+  min-height: 15rem;
+}
+.divider {
+  margin: 4rem auto;
+}
+.btn--new__advice {
+  cursor: pointer;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: none;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: c.$NeonGreen;
+
+  &:hover {
+    box-shadow: 0px 0px 50px 6px rgba(82, 255, 168, 1);
+  }
+  
+
+  img {
+    width: 3.5rem;
+    
+  }
+}
+.spinner {
+  animation: rotate 3s ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0) translate(0, 0);
+  }
+  100% {
+    transform: rotate(360deg) translate(0, 0);
+  }
+}
+

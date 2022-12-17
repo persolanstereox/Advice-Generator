@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css?family=Manrope";
+.advice__box {
+  max-width: 70rem;
+  min-height: 40rem;
+  text-align: center;
+  background-color: #323a49;
+  border-radius: 10px;
+  padding: 4rem;
+  position: relative;
+}
+
+.advice__number {
+  color: #52ffa8;
+  font-size: 3rem;
+}
+
+.advice {
+  color: #cee3e9;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.divider {
+  margin: 4rem auto;
+}
+
+.btn--new__advice {
+  width: 8rem;
+  height: 8rem;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn--new__advice:hover {
+  box-shadow: 0 0 50px 6px #52ffa8;
+}
+
+.btn--new__advice:hover img {
+  animation: 2s linear rotate;
+}
+
+.btn--new__advice img {
+  width: 3.5rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Manrope;
+  font-size: 10px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1f2632;
+  place-items: center;
+  padding: 3rem;
+  display: grid;
+}
+
+/*# sourceMappingURL=index.2583be0c.css.map */
